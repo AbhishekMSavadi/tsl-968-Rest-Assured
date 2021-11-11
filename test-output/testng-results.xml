@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6942" started-at="2021-11-09T17:19:44Z" finished-at="2021-11-09T17:19:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6942" started-at="2021-11-09T17:19:44Z" finished-at="2021-11-09T17:19:51Z">
+      <class name="day1.PositiveTest">
+        <test-method status="PASS" signature="addContact()[pri:0, instance:day1.PositiveTest@275710fc]" name="addContact" duration-ms="3851" started-at="2021-11-09T17:19:44Z" description="For getting all contact list" finished-at="2021-11-09T17:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method status="PASS" signature="UpdateContact()[pri:0, instance:day1.PositiveTest@275710fc]" name="UpdateContact" duration-ms="1189" started-at="2021-11-09T17:19:48Z" description="For Updating all contact list" depends-on-methods="day1.PositiveTest.addContact" finished-at="2021-11-09T17:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateContact -->
+        <test-method status="PASS" signature="getSpecficContact()[pri:0, instance:day1.PositiveTest@275710fc]" name="getSpecficContact" duration-ms="830" started-at="2021-11-09T17:19:49Z" description="Getting Specific Contact" depends-on-methods="day1.PositiveTest.addContact" finished-at="2021-11-09T17:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpecficContact -->
+        <test-method status="PASS" signature="DeleteSpecficContact()[pri:0, instance:day1.PositiveTest@275710fc]" name="DeleteSpecficContact" duration-ms="1052" started-at="2021-11-09T17:19:50Z" description="Deleting Specific Contact" depends-on-methods="day1.PositiveTest.UpdateContact" finished-at="2021-11-09T17:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteSpecficContact -->
+      </class> <!-- day1.PositiveTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
